@@ -19,7 +19,7 @@ p{
 
 nav{
     background-color:bisque;
-    padding:10px;
+    padding:20px;
     border-radius: 10px;
 }
 
@@ -46,13 +46,14 @@ footer{
     padding:10px;
     border-radius: 10px;
     font-family:Georgia, sans-serif;
+    text-decoration:none;
 }
 
 .button:hover{
     border: 2px solid chocolate;
 }
 
-button:focus{
+.button:focus{
     background-color: chocolate;
     color:bisque;
 }
@@ -108,5 +109,5 @@ button:focus{
 }
 
 .click-here-link{
-    font-size: 25px;
+    font-size: 30px;
 }
