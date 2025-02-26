@@ -1,34 +1,38 @@
+
 h1{
-    font-family:sans-serif;
+    font-family:Georgia, sans-serif;
     font-size: 45px;
+    margin-left: 2.5%;
 }
 
 h2{
-    font-family:sans-serif;
-    font-size: 35px;
+    font-family:Georgia, sans-serif;
+    font-size:32px;
+    margin-left: 2.5%;
 }
 
-h3{
-    font-family:Georgia, sans-serif;
-    font-size:32px
-}
 
 p{
     font-size:30px;
     font-family:Georgia, sans-serif;
-    
-    
 }
 
 nav{
-    background-color:lightgrey;
+    background-color:bisque;
     padding:10px;
+    border-radius: 10px;
 }
 
 footer{
     font-family:sans-serif;
-    background-color:lightgrey;
+    background-color:bisque;
     margin-top: 100px;
+    color:chocolate;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid burlywood;
+    font-size: 20px;
+    font-family:Georgia, sans-serif ;
 }
 
 
@@ -36,46 +40,73 @@ footer{
 
 
 .button{
-    border: 2px solid black;
-    color:black;
-    background-color:lightgrey;
+    border: 2px solid bisque;
+    color:chocolate;
+    background-color:bisque;
     padding:10px;
+    border-radius: 10px;
+    font-family:Georgia, sans-serif;
+}
+
+.button:hover{
+    border: 2px solid chocolate;
+}
+
+button:focus{
+    background-color: chocolate;
+    color:bisque;
 }
 
 .center-div{
     display:flex;
     justify-content: left;
     align-items: left;
+    margin-left:2.5%;
+    margin-left:2.5%;
 }
 
 .vanilla-intro{
-    padding:10px;
-    width:90%;
+    padding:20px;
+    width:1650px;
+    background-color:bisque;
+    border-radius: 20px;
+    border:3px solid burlywood;
+    color:chocolate;
+    margin-left: 2.5%;
+    
 }
 
 .chocolate-intro{
-    padding:10px;
-    width:90%;
+    padding:20px;
+    width:1650px;
+    background-color:chocolate;
+    border-radius: 20px;
+    border: 3px solid chocolate;
+    color:bisque;
+    margin-left: 2.5%;
+    
 }
 
 .main-vanilla-cake-img{ 
-   width:400px;
+   width:300px;
    float:left;
    padding-right:20px;
 }
 
 .main-chocolate-cake-img{
-    width:400px;
+    width:300px;
     float:right;
     padding-left:20px
 }
 
+.color-vanilla{
+    color:burlywood;
+    
+}
+.color-chocolate{
+    color:chocolate;
+}
 
-
-
-
-
-
-
-
-
+.click-here-link{
+    font-size: 25px;
+}
