@@ -2,7 +2,7 @@
 body{
     font-family:Georgia, sans-serif;
 }
-/* Styles h1, h1 and p and marign*/
+/* Sets font size margins, padding and width for the tag types in my HTML*/
 h1{
     font-size: 45px;
     margin-left: 2.5%;
@@ -13,11 +13,35 @@ h2{
     margin-left: 2.5%;
 }
 
+h3{
+    font-size:25px;
+    margin-left: 2.5%;
+}
+
 p{
     font-size:30px;
 }
 
-/* Sets font: size, color and family. Adds margin, padding and border. Makes the coners round*/
+ul{
+    font-size:25px;
+    width:75%
+}
+
+li{
+    font-size:25px;
+    margin-left:2.5%;
+    width:75%;
+    padding-bottom: 10px;
+}
+
+.non-index-p{
+    font-size: 25px;
+    margin-left: 2.5%;
+    margin-top:none;
+    width:75%;
+}
+
+/* Set style for footer. Sets font: size, color and family. Adds margin, padding and border. Makes the coners round*/
 footer{
     font-size: 20px;
     color:chocolate;
@@ -66,19 +90,23 @@ nav{
 p a, footer a{
     color:rgb(0, 0, 238);
 }
+
+.img-ref{
+    font-size:10px;
+}
 /* End of Nav bar and links styling */
 
 
 
-/* set div's disply to flex and aligns the contect left
-makes the image stay in div rather than leaving when floating left or right*/
+/* set div's disply to flex
+makes the image stay in div rather than leaving when floating left or right.*/
 .left-div{
     display:flex;
 }
 
 
-/* Start styling page one */
-/*set the colour, background colour, margin, width, padding and border. Makes the conners round*/
+
+/*set the colour, background colour, margin, width, padding and border. Makes the conners round for vanilla intro*/
 .vanilla-intro{
     color:chocolate;
     background-color:bisque;
@@ -90,7 +118,7 @@ makes the image stay in div rather than leaving when floating left or right*/
     border:3px solid burlywood;      
 }
 
-/*set the colour, background colour, margin, width, padding and border. Makes the conners round*/
+/*set the colour, background colour, margin, width, padding and border. Makes the conners round for chocolate intro*/
 .chocolate-intro{
     color:bisque;
     background-color:chocolate;
@@ -101,6 +129,7 @@ makes the image stay in div rather than leaving when floating left or right*/
     border: 3px solid brown;
     border-radius: 20px;
 }
+
 /* sets the width of the images. make them float left. set margin and border. make the conners round*/
 .main-vanilla-cake-img{ 
    width:300px;
@@ -109,13 +138,6 @@ makes the image stay in div rather than leaving when floating left or right*/
    border: 3px solid burlywood;
    border-radius: 10px;
 }
-
-.main-vanilla-cake-div{
-    width:300px;
-    margin:none;
-    display: inline;
-}
-
 
 /* sets the width of the images. make them float left. set margin and border. make the conners round*/
 .main-chocolate-cake-img{
@@ -139,6 +161,19 @@ makes the image stay in div rather than leaving when floating left or right*/
 }
 
 
-.img-ref p{
-    font-size:10px;
+
+#img-ref-vanilla-cake-page-2{
+    margin-left:2.5%;
 }
+
+.page-vanilla-cake-img{
+    height:400px;
+    margin-left: 2.5%;
+    border-radius: 10px;
+
+}
+
+
+
+
+
