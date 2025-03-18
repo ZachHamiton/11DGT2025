@@ -1,3 +1,6 @@
+
+
+
 /* Sets font for bady */
 body{
     font-family:Georgia, sans-serif;
@@ -23,19 +26,19 @@ p{
 }
 
 ul{
-    font-size:25px;
+    font-size:20px;
     width:75%
 }
 
 li{
-    font-size:25px;
+    font-size:20px;
     margin-left:2.5%;
     width:75%;
     padding-bottom: 10px;
 }
 
 .non-index-p{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 2.5%;
     margin-top:none;
     width:75%;
@@ -87,13 +90,19 @@ nav{
     font-size: 30px;
 }
 
-p a, footer a{
+p a, footer a, ol a {
     color:rgb(0, 0, 238);
 }
 
 .img-ref{
     font-size:10px;
+    
 }
+
+.img-ref-cake-page{
+    margin-left:2.5%;
+}
+
 /* End of Nav bar and links styling */
 
 
@@ -130,6 +139,8 @@ makes the image stay in div rather than leaving when floating left or right.*/
     border-radius: 20px;
 }
 
+
+/* Start of styling images */
 /* sets the width of the images. make them float left. set margin and border. make the conners round*/
 .main-vanilla-cake-img{ 
    width:300px;
@@ -147,7 +158,14 @@ makes the image stay in div rather than leaving when floating left or right.*/
     border:3px solid brown;
     border-radius: 10px;
 }
-/* End styling page one */
+
+.page-cake-img{
+    height:300px;
+    margin-left: 2.5%;
+    border-radius: 10px;
+
+}
+/* End of styling images */
 
 /* sets font colour*/
 .color-vanilla{
@@ -161,17 +179,6 @@ makes the image stay in div rather than leaving when floating left or right.*/
 }
 
 
-
-#img-ref-vanilla-cake-page-2{
-    margin-left:2.5%;
-}
-
-.page-vanilla-cake-img{
-    height:400px;
-    margin-left: 2.5%;
-    border-radius: 10px;
-
-}
 
 
 
