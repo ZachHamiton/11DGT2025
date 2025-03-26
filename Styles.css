@@ -73,6 +73,15 @@ nav{
     
 }
 
+.nav-bar-links-on{
+    text-decoration:none;
+    color:chocolate;
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+}
+
 /* When the mouse is over the link it show a brown solid border*/
 .nav-bar-links:hover{
     border: 2px solid chocolate;
